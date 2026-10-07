@@ -39,7 +39,7 @@ Categories: food, groceries, transport, bills, shopping, entertainment, health, 
 | Dev set, first definitions | 84.4% | mean of 3 runs |
 | Dev set, tuned (v1) | 92.7% | mean of 3 runs; optimistic, tuned on this set |
 | Dev set, v2 definitions | 93.0% | mean of 3 runs; no regressions |
-| Dev set, real rows only | 78.2% → 87.4% | v0 → v2 |
+| Dev set, real rows only | 78.2% → 87.4% | first → v2 definitions |
 | **Holdout, v1 definitions** | **75.0%** | **clean estimate** (n=32) |
 | Holdout, v2 definitions | 86.5% (84 to 88%) | tuned on: the v2 change was made after seeing these mistakes |
 

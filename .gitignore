@@ -1,0 +1,17 @@
+# Secrets: never commit API keys
+.env
+*.key
+
+# Private data: real transactions stay local. Only the synthetic sample is published.
+data/*
+!data/expenses_labeled.csv
+
+# Evaluation outputs (they copy your transaction text)
+results*.csv
+holdout*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.streamlit/secrets.toml

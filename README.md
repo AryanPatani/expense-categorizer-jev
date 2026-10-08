@@ -11,11 +11,11 @@ It is not affiliated with TypeSafe AI.
 
 An easy case: a clear note gets full confidence.
 
-![Single transaction: easy case](demo/demo1.png)
+![Single transaction: easy case](demo/demo2.png)
 
 An ambiguous case: the probability bars show the model split between food and groceries.
 
-![Single transaction: ambiguous case with probabilities](demo/demo2.png)
+![Single transaction: ambiguous case with probabilities](demo/demo1.png)
 
 Batch mode on the synthetic sample data: upload a CSV and get a category and confidence per row.
 

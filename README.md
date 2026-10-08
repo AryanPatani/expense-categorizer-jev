@@ -7,6 +7,20 @@ decisions instead of free text. Low-confidence predictions can be routed to manu
 This is a learning project. The focus is on **measuring** the model honestly, not only calling it.
 It is not affiliated with TypeSafe AI.
 
+## Demo
+
+An easy case: a clear note gets full confidence.
+
+![Single transaction: easy case](demo/demo1.png)
+
+An ambiguous case: the probability bars show the model split between food and groceries.
+
+![Single transaction: ambiguous case with probabilities](demo/demo2.png)
+
+Batch mode on the synthetic sample data: upload a CSV and get a category and confidence per row.
+
+![Batch CSV mode on synthetic sample data](demo/demo3.png)
+
 ## How it works
 
 Each transaction is sent to Jev as *state* (description and amount) with two typed questions:
@@ -26,6 +40,7 @@ threshold, the transaction becomes `needs_review` instead of a guess.
 | `compare_runs.py` | Compares repeated runs: which rows are stable errors vs. noise |
 | `app.py` | Streamlit demo |
 | `data/expenses_labeled.csv` | Synthetic sample data only |
+| `demo/` | Screenshots of the Streamlit app (synthetic or non-personal examples only) |
 
 ## Results
 

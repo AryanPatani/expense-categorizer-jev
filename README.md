@@ -58,6 +58,8 @@ Categories: food, groceries, transport, bills, shopping, entertainment, health, 
 | **Holdout, v1 definitions** | **75.0%** | **clean estimate** (n=32) |
 | Holdout, v2 definitions | 86.5% (84 to 88%) | tuned on: the v2 change was made after seeing these mistakes |
 
+![Results](demo/results_chart.png)
+
 Confidence threshold (v1 definitions): at 0.8, coverage was 78% with 91.5% accuracy on the dev set
 and 81% with 88.5% on the holdout. Median latency was roughly 0.3 to 0.7 s per call, measured from my machine.
 
